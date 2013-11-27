@@ -27,7 +27,7 @@ renderHomeView: function() {
             "<div class='search-view'>" +
             "<input class='search-key'/>" +
             "<ul class='employee-list'></ul>" +
-            "</div>"
+            "</div>";
     $('body').html(html);
     $('.search-key').on('keyup', $.proxy(this.findByName, this));
 },
